@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<spnOverrides version="1">
+	<spnOverride numeric="26001" spn="Plus"/>
+	<spnOverride numeric="26002" spn="T-Mobile"/>
+	<spnOverride numeric="26010" spn="Sferia"/>
+	<spnOverride numeric="26012" spn="Cyfrowy Polsat"/>
+	<spnOverride numeric="26017" spn="Aero2"/>
+</spnOverrides>

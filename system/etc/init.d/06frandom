@@ -1,0 +1,27 @@
+#!/system/bin/sh
+
+if [ ! -t 0 ]; then exec &>"/data/local/tmp/${0##*/}.log"; fi;
+function Date () { date +"%y-%m-%d %T"; }
+echo "[${0##*/}] ($(Date))"; echo;
+
+if [ -e /dev/random.solid -o -e /dev/urandom.solid ]; then
+	echo "Frandom Already Enabled";
+else
+	if [ -c /dev/frandom -a -c /dev/erandom ]; then
+		chmod 666 /dev/frandom;
+		chmod 666 /dev/erandom;
+		error=0;
+		mv /dev/random /dev/random.solid && ln /dev/frandom /dev/random || let 'error++';
+		mv /dev/urandom /dev/urandom.solid && ln /dev/erandom /dev/urandom || let 'error++';
+		if [ -e /dev/hw_random ]; then
+			mv /dev/hw_random /dev/hw_random.solid && ln /dev/erandom /dev/hw_random || let 'error++';
+		fi
+		if [ "$error" -eq 0 ]; then
+			echo "Frandom ENABLED =)";
+		else
+			echo "ERROR Enabling Frandom =(";
+		fi
+	else
+		echo "Frandom NOT Supported =(";
+	fi
+fi

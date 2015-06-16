@@ -1,6 +1,6 @@
-Spolszczenie - MIUIPolska.pl
-
 Skrypt MakeMiuiPL - dadi11
+==========================
+Spolszczenie - MIUIPolska.pl
 
 Instrukcja:
 

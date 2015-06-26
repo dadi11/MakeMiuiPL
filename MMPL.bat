@@ -77,6 +77,7 @@ XCOPY "%system_app_pl%\HTMLViewer.apk\res\values-pl\*" "%system_app%\HTMLViewer.
 XCOPY "%system_app_pl%\KeyChain.apk\res\values-pl\*" "%system_app%\KeyChain.apk\res\values-pl" /s /i /y /q  
 XCOPY "%system_app_pl%\LiveWallpapersPicker.apk\res\values-pl\*" "%system_app%\LiveWallpapersPicker.apk\res\values-pl" /s /i /y /q  
 XCOPY "%system_app_pl%\miui.apk\res\values-pl-xxhdpi\*" "%system_app%\miui.apk\res\values-pl-xxhdpi" /s /i /y /q  
+XCOPY "%system_app_pl%\miui.apk\res\values-pl\*" "%system_app%\miui.apk\res\values-pl" /s /i /y /q  
 XCOPY "%system_app_pl%\MiuiCompass.apk\res\values-pl\*" "%system_app%\MiuiCompass.apk\res\values-pl" /s /i /y /q  
 XCOPY "%system_app_pl%\MiuiVideo.apk\res\values-pl\*" "%system_app%\MiuiVideo.apk\res\values-pl" /s /i /y /q  
 XCOPY "%system_app_pl%\MiWallpaper.apk\res\values-pl\*" "%system_app%\MiWallpaper.apk\res\values-pl" /s /i /y /q  

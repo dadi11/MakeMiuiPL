@@ -168,7 +168,6 @@ echo ---------------------------------------------------------------------------
 XCOPY "%source3%\system\boot.img" "%destination3%\boot.img*" /s /i /y /q  
 XCOPY "%source3%\system\build.prop" "%destination3%\system\build.prop*" /s /i /y /q  
 XCOPY "%source3%\META-INF\com\google\android\updater-script" "%destination3%\META-INF\com\google\android\updater-script*" /s /i /y /q  
-XCOPY "%source3%\system\addon.d\*" "%destination3%\system\addon.d" /s /i /y /q  
 XCOPY "%source3%\system\app\*" "%destination3%\system\app" /s /i /y /q  
 XCOPY "%source3%\system\bin\*" "%destination3%\system\bin" /s /i /y /q  
 XCOPY "%source3%\system\etc\*" "%destination3%\system\etc" /s /i /y /q  

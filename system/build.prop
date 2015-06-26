@@ -319,14 +319,12 @@ ro.config.sms_received_sound=FadeIn.ogg
 ro.config.sms_delivered_sound=MessageComplete.ogg
 ro.com.android.mobiledata=false
 ro.product.manufacturer=Xiaomi
-ro.config.elder-ringtone=Angel.mp3
-persist.sys.mitalk.enable=true
-ro.config.ringtone=Ring_Synth_04.ogg
-ro.config.notification_sound=pixiedust.ogg
+ro.config.ringtone=MI.ogg
+ro.config.notification_sound=FadeIn.ogg
+ro.config.alarm_alert=GoodMorning.ogg
 ro.config.alarm_alert=Alarm_Classic.ogg
 mijl.changelog.ftpPath=http://www.heavenke.com/miui/rogue/f180/
 ro.product.mod_device=f180_rogue
 ro.skia.use_data_fonts=1
 ro.miui.ui.version.code=4
 ro.miui.ui.version.name=V6
-
